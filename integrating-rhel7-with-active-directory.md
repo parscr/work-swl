@@ -113,7 +113,10 @@ Install config tools.
 ```
 #sudo yum -y install authconfig-gtk sssd krb5-workstation system-config-authentication samba-winbind-clients.x86_64
 #system-config-authentication
+
+```
 #wbinfo -u
+```
 ```
 This should produce a list of users example:
 
@@ -148,6 +151,7 @@ Edit smb.conf to include the following
 
 ```
     # vi smb.conf      
+```
 ```
 #Global Settings 
 workgroup = ENG
