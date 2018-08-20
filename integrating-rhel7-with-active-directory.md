@@ -1,4 +1,4 @@
-Integrating RHEL7 with Active Directory
+# Integrating RHEL7 with Active Directory
 
 ```
 #vi /etc/selinux/config
@@ -33,7 +33,7 @@ SELINUX=disabled
 #server 1.centos.pool.ntp.org iburst
 #server 2.centos.pool.ntp.org iburst
 #server 3.centos.pool.ntp.org iburst
-# server ntp.ox.ac.uk iburst
+server ntp.ox.ac.uk iburst
     
 # Ignore stratum in source selection.
 stratumweight 0
