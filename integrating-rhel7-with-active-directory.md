@@ -77,11 +77,11 @@ logdir /var/log/chrony
 ```
 
 ```
-    # systemctl stop chronyd.service
-    # systemctl status chronyd.service
-    # systemctl start chronyd.service
-    # systemctl status chronyd.service
-    # chronyc sources -v
+#systemctl stop chronyd.service
+#systemctl status chronyd.service
+#systemctl start chronyd.service
+#systemctl status chronyd.service
+#chronyc sources -v
 ```
 
 Edit /etc/nsswitch.conf
