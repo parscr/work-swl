@@ -23,8 +23,8 @@ SELINUX=disabled
 #yum install -y chrony
 #systemctl status chronyd.service
 #chronyc sources -v
-# cd /etc/
-# vi /etc/chrony.conf
+#cd /etc/
+#vi /etc/chrony.conf
 ```
 ```
 # Use public servers from the pool.ntp.org project.
@@ -33,7 +33,7 @@ SELINUX=disabled
 #server 1.centos.pool.ntp.org iburst
 #server 2.centos.pool.ntp.org iburst
 #server 3.centos.pool.ntp.org iburst
-server ntp.ox.ac.uk iburst
+# server ntp.ox.ac.uk iburst
     
 # Ignore stratum in source selection.
 stratumweight 0
@@ -149,7 +149,7 @@ Edit smb.conf to include the following
 ```
     # vi smb.conf      
 ```
-#======================= Global Settings =====================================
+#Global Settings 
 workgroup = ENG
 obey pam restrictions = yes
 realm = ENG.OX.AC.UK
@@ -170,7 +170,7 @@ winbind expand groups = 8
 winbind refresh tickets = Yes
 wins server = 163.1.2.52
     
-    [global]
+[global]
 ```
 ```
 #systemctl restart winbind.service
