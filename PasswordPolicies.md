@@ -12,7 +12,7 @@ Requirement 6 Not contain user names excced two
 
 Requirement 7 
 
-# Configure the maximum number of days that a password can be used 365
+### Configure the maximum number of days that a password can be used 365
 
 vim /etc/login.defs
 ```
