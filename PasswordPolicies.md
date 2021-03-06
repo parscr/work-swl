@@ -5,12 +5,12 @@ Configure the maximum number of days that a password can be used
 
 vim /etc/login.defs
 
-# Password aging controls:
+#Password aging controls:
 #
-#	PASS_MAX_DAYS	Maximum number of days a password may be used.
-#	PASS_MIN_DAYS	Minimum number of days allowed between password changes.
-#	PASS_MIN_LEN	Minimum acceptable password length.
-#	PASS_WARN_AGE	Number of days warning given before a password expires.
+#PASS_MAX_DAYS	Maximum number of days a password may be used.
+#PASS_MIN_DAYS	Minimum number of days allowed between password changes.
+#PASS_MIN_LEN	Minimum acceptable password length.
+#PASS_WARN_AGE	Number of days warning given before a password expires.
 #
 PASS_MAX_DAYS	365
 PASS_MIN_DAYS	0
