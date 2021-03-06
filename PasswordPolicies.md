@@ -1,6 +1,8 @@
 Requirement 1 Password History 1
 Requirement 2 Max Password age 365
 
+Requirement 2 Max Password age 365
+
 Requirement 3 Min Password age 0
 
 Requirement 4 Min Password Length 8
@@ -28,7 +30,7 @@ PASS_MIN_LEN	5
 PASS_WARN_AGE	7
 ```
 
-###Password complexity with pam
+### Password complexity with pam
 
 vim /etc/security/pwquality.conf
 
