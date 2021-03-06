@@ -1,5 +1,6 @@
+## Configure Local Pasword Policiy 
+
 Requirement 1 Password History 1
-Requirement 2 Max Password age 365
 
 Requirement 2 Max Password age 365
 
