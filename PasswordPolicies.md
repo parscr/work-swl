@@ -1,7 +1,12 @@
-Requirements.
+Requirement 1 Password History 1
+Requirement 2 Max Password age 365
+Requirement 3 Min Password age 0
+Requirement 4 Min Password Length 8
+Requirement 5 Contains characeters from 3 of the 4 (Upper;Lower;Digit;Non Alphabectic)
+Requirement 6 Not contain user names excced two
+Requirement 7 
 
-
-Configure the maximum number of days that a password can be used
+Configure the maximum number of days that a password can be used 365
 
 vim /etc/login.defs
 ```
@@ -22,6 +27,7 @@ Password complexity with pam
 
 vim /etc/security/pwquality.conf
 
+```
 # Configuration for systemwide password quality limits
 # Defaults:
 #
@@ -72,6 +78,7 @@ minclass = 4
 #
 # Path to the cracklib dictionaries. Default is to use the cracklib default.
 # dictpath =
+```
 
 Save & Quit
 
@@ -80,19 +87,19 @@ To change the minimum length, do two things:
 
 Remove the hash (#) character from the beginning of the line
 Change the length to your desired length
-
+```
 # Minimum acceptable size for the new password (plus one if
 # credits are not disabled which is the default). (See pam_cracklib manual.)
 # Cannot be set to lower value than 6.
 #minlen = 8
 minlen 10
-
+```
 
 Change the following parameters to “0” and Remove the hash (#) for them as well
-
+```
 dcredit = 0
 ucredit = 0
 lcredit = 0
 ocredit = 0
-
+```
 
