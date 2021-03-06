@@ -34,7 +34,7 @@ PASS_WARN_AGE	7
 
 vim /etc/security/pwquality.conf
 
-```
+```json
 # Configuration for systemwide password quality limits
 # Defaults:
 #
@@ -68,7 +68,9 @@ ocredit = 0
 #
 # The minimum number of required classes of characters for the new
 # password (digits, uppercase, lowercase, others).
-\\**minclass = 4\\**
+{
+minclass = 4
+}
 #
 # The maximum number of allowed consecutive same characters in the new password.
 # The check is disabled if the value is 0.
