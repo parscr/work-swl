@@ -1,9 +1,15 @@
 Requirement 1 Password History 1
+
 Requirement 2 Max Password age 365
+
 Requirement 3 Min Password age 0
+
 Requirement 4 Min Password Length 8
+
 Requirement 5 Contains characeters from 3 of the 4 (Upper;Lower;Digit;Non Alphabectic)
+
 Requirement 6 Not contain user names excced two
+
 Requirement 7 
 
 Configure the maximum number of days that a password can be used 365
