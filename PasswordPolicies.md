@@ -68,9 +68,7 @@ ocredit = 0
 #
 # The minimum number of required classes of characters for the new
 # password (digits, uppercase, lowercase, others).
-{
 minclass = 4
-}
 #
 # The maximum number of allowed consecutive same characters in the new password.
 # The check is disabled if the value is 0.
