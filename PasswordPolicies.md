@@ -12,7 +12,6 @@ Requirement 5 Contains characeters from 3 of the 4 (Upper;Lower;Digit;Non Alphab
 
 Requirement 6 Not contain user names excced two
 
-Requirement 7 
 
 ### Configure the maximum number of days that a password can be used 365
 
@@ -69,7 +68,7 @@ ocredit = 0
 #
 # The minimum number of required classes of characters for the new
 # password (digits, uppercase, lowercase, others).
-minclass = 4
+**minclass = 4**
 #
 # The maximum number of allowed consecutive same characters in the new password.
 # The check is disabled if the value is 0.
@@ -89,6 +88,8 @@ minclass = 4
 ```
 
 Save & Quit
+
+NOTES: 
 
 Minimum Password Length.
 To change the minimum length, do two things:
