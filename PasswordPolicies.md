@@ -93,8 +93,6 @@ minclass = 4
 # dictpath =
 ```
 
-Save & Quit
-
 NOTES: Credits!
 
 pam_pwquality uses a "scoring" system that combines password length requirements with a "credit" system based on the number of different types of characters.
