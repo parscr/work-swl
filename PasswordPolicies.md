@@ -19,7 +19,7 @@ vim /etc/pam.d/system-auth and /etc/pam.d/password-auth (after pam_pwquality.so 
 password    requisite     pam_pwhistory.so remember=1 use_authtok
 ```
 
-### Requirement 2 Configure the maximum number of days that a password can be used 365
+### Requirement 2,3 Configure the minimum & maximum number of days that a password can be used 0/365
 
 vim /etc/login.defs
 ```
