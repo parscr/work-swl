@@ -95,6 +95,8 @@ pam_pwquality uses a "scoring" system that combines password length requirements
 
 You start with the minlen=N parameter which sets the minimum acceptable length for a password. However, the user gets one "credit" each for using a lower-case letter, an upper-case letter, a number, and a punctuation character. So if minlen=15, the user could still use an 11 character password if it contained all four character classes.
 
+pam_pwquality also supports a minclass=N parameter that requires characters from at least N of the four different character classes. This is probably a better way to go than specifically requiring a specific type of character.
+
 ### Minimum Password Length.
 To change the minimum length, do two things:
 
