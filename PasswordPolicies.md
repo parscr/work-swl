@@ -95,13 +95,12 @@ pam_pwquality uses a "scoring" system that combines password length requirements
 
 You start with the minlen=N parameter which sets the minimum acceptable length for a password. However, the user gets one "credit" each for using a lower-case letter, an upper-case letter, a number, and a punctuation character. So if minlen=15, the user could still use an 11 character password if it contained all four character classes.
 
-
-
-Minimum Password Length.
+# Minimum Password Length.
 To change the minimum length, do two things:
 
 Remove the hash (#) character from the beginning of the line
 Change the length to your desired length
+
 ```
 # Minimum acceptable size for the new password (plus one if
 # credits are not disabled which is the default). (See pam_cracklib manual.)
