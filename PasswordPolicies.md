@@ -115,9 +115,7 @@ dcredit = 0
 ucredit = 0
 lcredit = 0
 ocredit = 0
-``
-
-`
+```
 
 Configure Other Password Parameters
 Above we disabled “credits”, which gives passwords points for things like digits, capital letters, and characters different from the previous password. The default for those was “1”, which means that each time you use one of these characters, the score is added to the length.
