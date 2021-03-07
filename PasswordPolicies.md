@@ -91,6 +91,12 @@ Save & Quit
 
 NOTES: Credits!
 
+pam_pwquality uses a "scoring" system that combines password length requirements with a "credit" system based on the number of different types of characters.
+
+You start with the minlen=N parameter which sets the minimum acceptable length for a password. However, the user gets one "credit" each for using a lower-case letter, an upper-case letter, a number, and a punctuation character. So if minlen=15, the user could still use an 11 character password if it contained all four character classes.
+
+
+
 Minimum Password Length.
 To change the minimum length, do two things:
 
@@ -110,7 +116,9 @@ dcredit = 0
 ucredit = 0
 lcredit = 0
 ocredit = 0
-```
+``
+
+`
 
 Configure Other Password Parameters
 Above we disabled “credits”, which gives passwords points for things like digits, capital letters, and characters different from the previous password. The default for those was “1”, which means that each time you use one of these characters, the score is added to the length.
@@ -123,5 +131,4 @@ While this has only 8 characters, it contains a digit and lowercase alphabets. W
 You can adjust the “minlen” parameter to a higher number and give people additional points password complexity. You can set the various credits to a negative number to force that specific amount of characters. Do a “dcredit” value of -3 means that the password must have at least 3 digits.
 
 The “pwquality.conf” file documents all these parameters, and you can create password rules that are as complex as you like! But here we show you how to get started with a minimum length. You can take it from there!
-
 
