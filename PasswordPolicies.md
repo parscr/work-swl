@@ -12,8 +12,14 @@ Requirement 5 Contains characeters from 3 of the 4 (Upper;Lower;Digit;Non Alphab
 
 Requirement 6 Not contain user names excced two
 
+### Requirement 1 Password History
 
-### Configure the maximum number of days that a password can be used 365
+vim /etc/pam.d/system-auth and /etc/pam.d/password-auth (after pam_pwquality.so line):
+```
+password    requisite     pam_pwhistory.so remember=1 use_authtok
+```
+
+### Requirement 2 Configure the maximum number of days that a password can be used 365
 
 vim /etc/login.defs
 ```
@@ -30,7 +36,7 @@ PASS_MIN_LEN	5
 PASS_WARN_AGE	7
 ```
 
-### Password complexity with pam
+### Requirement 4,5 & 6 Password complexity
 
 vim /etc/security/pwquality.conf
 
