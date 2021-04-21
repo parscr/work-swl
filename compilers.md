@@ -57,7 +57,7 @@ MPI - Building Intel with OpenMPI
 # ./configure --prefix=/opt/openmpi-1.8.3/intel-2013 CC=icc CXX=icpc FC=ifort
 # make all install
 ```
-MPI - Building pgi with openmpi 
+MPI - Building pgi with OpenMPI 
 ```
 # module load pgi/12.10
 # cd /opt/build_openmpi
