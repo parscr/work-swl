@@ -1,5 +1,6 @@
 Intel-Compilers
-Install Missing Optional Prerequisites
+
+Install missing optional prerequisites
 ```
 # yum install libgfortran.i686 glibc-devel.i686 libgcc.i686 libstdc++-devel.i686
 ```
