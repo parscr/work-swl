@@ -24,7 +24,8 @@ the 32-bit version of these libraries can be installed with:
 # yum install db4-devel.i686   
 ```
 
-Download GCC ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/ 
+Download GCC ftp://ftp.mirrorservice.org/sites/sourceware.org/pub/gcc/releases/
+
 Configuring and building GCC 4.X.X 
 ``` 
 # cd /opt
