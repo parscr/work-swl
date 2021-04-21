@@ -18,7 +18,7 @@ Remove Intel-Compilers
 # rpm -qa | grep -i intel
 ```
 Portland-Compilers
-
+to be completed.
 
 F77
 ```
