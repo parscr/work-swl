@@ -1,13 +1,5 @@
 Intel-Compilers
 Portland-Compilers
-F77
-GCC
-Configuring and building GCC 
-
-MPI
-Building GCC with OpenMPI 
-Building Intel with OpenMPI 
-Building pgi with openmpi 
 
 F77
 ```
