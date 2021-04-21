@@ -1,5 +1,24 @@
 Intel-Compilers
+Install Missing Optional Prerequisites
+```
+# yum install libgfortran.i686 glibc-devel.i686 libgcc.i686 libstdc++-devel.i686
+```
+```
+# mkdir /opt/build_intel
+# cp l_ccompxe_2013_sp1.2.144.gz /opt/build_intel
+# cp l_fcompxe_2013_sp1.2.144.gz /opt/build_intel
+# tar zxvf l_ccompxe_2013_sp1.2.144.gz
+# cd l_ccompxe_2013_sp1.2.144/
+# ./install.sh
+```
+Remove Intel-Compilers
+```
+# rpm -e --allmatches `rpm -qa | grep intel | grep 273`
+# rpm -e --noscripts intel-compilerpro-common-273-12.1-8.noarch
+# rpm -qa | grep -i intel
+```
 Portland-Compilers
+
 
 F77
 ```
