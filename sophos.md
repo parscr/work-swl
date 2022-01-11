@@ -1,5 +1,4 @@
-Sophos Central 
-https://central.sophos.com/manage/login
+Sophos Central https://central.sophos.com/manage/login
 
 Install
 ````
