@@ -1,0 +1,13 @@
+#Extract ISO  (RHEL 8)
+Enable EPEL
+```
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+```
+Install 
+```
+dnf install p7zip p7zip-plugins
+```
+Extract
+```
+7z x ANSYS2020R2_LINX64_Disk1.iso
+```
